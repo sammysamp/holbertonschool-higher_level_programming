@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-f = open("zen.txt","r")
+f = open("zen.txt", "r")
 str = f.read()
-print(str)
+print(str, end = '')
 f.close()
