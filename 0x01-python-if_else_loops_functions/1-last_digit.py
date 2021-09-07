@@ -6,7 +6,7 @@ if number < 0:
 else:
     lastdigit = number % 10
 if lastdigit == 0:
-    theanswer = "and is zero"
+    theanswer = "and is 0"
 elif lastdigit > 5:
     theanswer = "and is greater than 5"
 else:
