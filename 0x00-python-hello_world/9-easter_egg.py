@@ -2,3 +2,4 @@
 with open('zen.txt') as f:
     contents = f.read()
     print(contents)
+    f.close()
