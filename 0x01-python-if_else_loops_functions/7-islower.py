@@ -4,4 +4,4 @@ def islower(c):
     if n > 96 and n < 123:
         return True
     else:
-        return False 
+        return False
