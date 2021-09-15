@@ -19,6 +19,6 @@ if __name__ == "__main__":
             a = int(sys.argv[1])
             b = int(sys.argv[3])
             for i in range(4):
-                if sys.argv[2] == op[i]:
+                if (sys.argv[2] == op[i]):
                     c = i
             print("{:d} {:s} {:d} = {:d}".format(a, op[c], b, f[c](a, b)))
