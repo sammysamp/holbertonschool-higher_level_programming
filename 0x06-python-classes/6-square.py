@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""In this module we define a class for a square object"""
+"""In this module we defiine a class for a square object"""
 
 
 def evaluate_size(value):
@@ -57,7 +57,7 @@ class Square:
         """obj:`int`: returns o changes the value of the attribute`position`"""
         return self.__position
 
-    @size.setter
+    @position.setter
     def position(self, value):
         self.__position = evaluate_position(value)
 
