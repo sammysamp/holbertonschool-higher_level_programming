@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""In this module we define a class for a square object"""
+"""In this module we defiine a class for a square object"""
 
 
 class Square:
@@ -11,7 +11,7 @@ class Square:
         Returns:
             function: A function that will be executed
         """
-        def required(self, value):
+        def required(self, value=0):
             """Checks if the function is a positive integer or
                 raises an exception
             Args:
