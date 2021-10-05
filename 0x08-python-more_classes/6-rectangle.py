@@ -19,8 +19,8 @@ def eval_value(str_value, value):
 
 class Rectangle:
     """A class which defines a rectangle"""
-
     number_of_instances = 0
+
     def __init__(self, width=0, height=0):
         """Initializes an object for a rectangle class.
         Args:
