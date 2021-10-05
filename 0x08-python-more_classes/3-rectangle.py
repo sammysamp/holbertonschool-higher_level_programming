@@ -31,7 +31,6 @@ class Rectangle:
         self.__width = eval_value("width", width)
         self.__height = eval_value("height", height)
 
-
     def __str__(self):
         """A printable representation of the class Rectangle"""
         if self.width != 0 and self.height != 0:
