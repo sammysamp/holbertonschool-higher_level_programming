@@ -5,4 +5,3 @@
 class Rectangle:
     """Represents a Rectangle class"""
     pass
-
