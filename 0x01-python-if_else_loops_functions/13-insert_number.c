@@ -1,4 +1,11 @@
 #include "lists.h"
+/**
+ * insert_node - insert a node into list
+ * @head: pointer to the list
+ * @number: int value of new node
+ * Return: Success: address of new node
+ * Fail: NULL
+ */
 
 listint_t *insert_node(listint_t **head, int number)
 {
