@@ -41,7 +41,7 @@ class Square:
                         specified.
         """
         self.__size = evaluate_size(size)
-        self.__position = evaluate_position(position)
+        self.__position = position
 
     @property
     def size(self):
