@@ -1,8 +1,8 @@
 -- LEFT JOIN
-select distinct(s.title) from tv_shows s
-LEFT JOIN tv_show_genres t on
+SELECT DISTINCT(s.title) FROM tv_shows s
+LEFT JOIN tv_show_genres t ON
 s.id = t.show_id
-where s.id not in (select t.show_id from tv_show_genres t INNER JOIN tv_genres g on
-t.genre_id = g.id where g.name = 'Comedy')
-order by 1 asc;
+WHERE s.id NOT IN (SELECT t.show_id FROM tv_show_genres t INNER JOIN tv_genres g ON
+t.genre_id = g.id WHERE g.name = 'Comedy')
+ORDER BY 1 ASC;
 
